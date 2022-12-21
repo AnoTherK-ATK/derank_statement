@@ -17,7 +17,7 @@ Cũng ý tưởng trên nhưng cải tiến một chút.
 => Độ phức tạp: $O(n)$
 
 
-```
+```c++
 #include <bits/stdc++.h>
 using namespace std;
 
