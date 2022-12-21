@@ -1,10 +1,12 @@
 Nhận xét:
 
 Ta cho mảng $s$ là mảng prefix xor sum, ta có:
-$\left\{ \begin{array}{l}
+$$
+\left\{ \begin{array}{l}
 {s_1} = {a_1} &  ,{\rm{if }}\;i = 1\\
 {s_i} = {s_{i - 1}} \oplus {a_i} & ,{\rm{ if }}\;i > 1
-\end{array} \right.$
+\end{array} \right.
+$$
 
 Ta có thể kết luận kết quả $a_p \oplus a_{p+1} \oplus \cdots \oplus a_n = s_n \oplus s_{p - 1}$.
 
