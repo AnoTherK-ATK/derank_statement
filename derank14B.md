@@ -1,20 +1,20 @@
 ## Sắp tát 1
 
-Ở subtask này chỉ cần vét ~O(n^3)~ là được.
+Ở subtask này chỉ cần vét $O(n^3)$ là được.
 
 ## Sắp tát 2
 
-Ở subtask này duyệt qua từng cặp ~(x,y)~ sao cho ~2x \le y~, đếm số lượng ~z \in [2y,n]~ còn lại bằng **prefix sum**.
+Ở subtask này duyệt qua từng cặp $(x,y)$ sao cho $2x \le y$, đếm số lượng $z \in [2y,n]$ còn lại bằng **prefix sum**.
 
-=> Độ phức tạp: ~O(n^2)~
+=> Độ phức tạp: $O(n^2)$
 
 ## Sắp tát 3
 
 Cũng ý tưởng trên nhưng cải tiến một chút.
 
-Đó là duyệt từng vị trí ~y~ đếm số cặp ~(x,z)~ thoả điều kiện bằng **prefix sum**. Xem code để hiểu rõ hơn nha.
+Đó là duyệt từng vị trí $y$ đếm số cặp $(x,z)$ thoả điều kiện bằng **prefix sum**. Xem code để hiểu rõ hơn nha.
 
-=> Độ phức tạp: ~O(n)~
+=> Độ phức tạp: $O(n)$
 
 
 ```
